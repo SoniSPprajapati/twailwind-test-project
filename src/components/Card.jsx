@@ -14,7 +14,7 @@ function Card({ userName, someObj }) {
       <div className="flex flex-col py-3 px-3 pb-7 -mt-4 bg-black rounded-b-xl ">
         <div className="flex justify-between">
           <h1 className="font-RubikBold ">{userName}</h1>
-          <h1 className="font-bold font-RubikBold">Price</h1>
+          <h1 className="font-bold font-RubikBold">Hello</h1>
         </div>
         <div className="flex  justify-between font-mono">
           <p>#345</p>

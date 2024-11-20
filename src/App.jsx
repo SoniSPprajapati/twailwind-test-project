@@ -14,12 +14,13 @@ function App() {
   let newArray = [1, 2, 3, 4];
 
   return (
-    <>
+    <div>
       <h1 className="bg-green-500 text-black font-bold p-4 rounded">
         Tailwind Test
       </h1>
       <Card userName="Soni" someObj={myObj} />
-    </>
+      <Card />
+    </div>
   );
 }
 
